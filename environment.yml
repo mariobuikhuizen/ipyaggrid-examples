@@ -1,0 +1,11 @@
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - jupyterlab=3
+  - ipywidgets<8
+  - ipyvue
+  - pip:
+      - https://s3.us-west-2.amazonaws.com/widgetti.pub/ipyaggrid/7/merge/ipyaggrid-latest-py2.py3-none-any.whl
